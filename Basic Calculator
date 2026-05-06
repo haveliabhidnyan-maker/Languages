@@ -29,3 +29,18 @@ public class Challenge {
 
     }
 }
+
+import java.util.Scanner;
+
+public class Challenge {
+    public static void main(String[] args){
+       Scanner input = new Scanner(System.in);
+       System.out.print("Enter length: ");
+       float x1 = input.nextFloat();
+       System.out.print("Enter breadth: ");
+       float x2 = input.nextFloat();
+       System.out.println(2*(x1+x2));
+       
+
+    }
+}
