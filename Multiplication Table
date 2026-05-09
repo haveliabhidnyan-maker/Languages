@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class multiplicationTable {
+public static void main(String[] args){
+    Scanner input = new Scanner(System.in);
+    System.out.print("Enter the number: ");
+    int number1 = input.nextInt();
+    int j = 1;
+    while(j <= 10){
+        System.out.println(number1*j);
+        j +=1;
+    }
+}
+}
