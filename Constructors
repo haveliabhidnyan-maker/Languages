@@ -24,7 +24,7 @@ class Construct{
         {
             
             System.out.println("First Object");
-            Construct obj = new Construct("Sweta", 68);
+            Construct obj = new Construct("Abhidnyan", 19);
             System.out.println("ObjName: " + obj.name
                     + " and ObjId: " + obj.id);
 
