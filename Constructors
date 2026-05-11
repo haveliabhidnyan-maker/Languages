@@ -1,0 +1,41 @@
+class Construct{
+
+
+        String name;
+        int id;
+
+
+        Construct(String name, int id)
+        {
+            this.name = name;
+            this.id = id;
+        }
+
+
+        Construct(Construct obj2)
+        {
+            this.name = obj2.name;
+            this.id = obj2.id;
+        }
+    }
+
+    class ABC {
+        public static void main(String[] args)
+        {
+            
+            System.out.println("First Object");
+            Construct obj = new Construct("Sweta", 68);
+            System.out.println("GeekName: " + obj.name
+                    + " and GeekId: " + obj.id);
+
+            System.out.println();
+
+            
+            Construct geek2 = new Construct(obj);
+            System.out.println(
+                    "Copy Constructor used Second Object");
+            System.out.println("Objname: " + geek2.name
+                    + " and ObjID: " + geek2.id);
+        }
+    }
+}
