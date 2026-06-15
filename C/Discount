@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main(){
+    int bill;
+    scanf("%d", &bill);
+    if(bill > 1000){
+        int discount = bill*10/100;
+        int final_bill = bill - discount;
+        printf("Discount applied: %d \n", discount);
+        printf("Final Bill amount: %d \n", final_bill);
+    }
+    else{
+        printf("No discount applied");
+        printf("Final Bill amount: %d \n", bill);
+    }
+}
